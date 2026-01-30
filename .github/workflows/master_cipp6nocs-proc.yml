@@ -14,7 +14,7 @@ env:
 
 jobs:
   deploy:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     
     steps:
       - name: 'Checkout GitHub Action'
@@ -27,4 +27,4 @@ jobs:
           app-name: 'cipp6nocs-proc'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C6842109B837436A8758724E52F67170 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DE34DBEC06A14550A91EE5BADD2B7C3D }}
