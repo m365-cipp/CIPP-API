@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
 name: Build and deploy Powershell project to Azure Function App - cipp6nocs
-#dere
+dere:
 on:
   push:
     branches:
